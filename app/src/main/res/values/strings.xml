@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Reels Guard</string>
+    <string name="service_description">Closes Instagram Reels, YouTube Shorts and (optionally) TikTok, limits the Instagram feed, and asks for the password before this app can be switched off or removed. Works fully offline.</string>
+    <string name="admin_explanation">Stops Reels Guard from being uninstalled without the password.</string>
+    <string name="admin_disable_warning">Reels Guard needs the password to be switched off.</string>
+
+    <string name="setup_title">Set a password</string>
+    <string name="setup_hint">Choose a password and keep it safe: it is needed to switch protection off or to remove this app. Tip: let a friend choose it so you do not know it.</string>
+    <string name="password">Password</string>
+    <string name="password_repeat">Repeat password</string>
+    <string name="save_password">Save password</string>
+    <string name="password_too_short">At least %d characters.</string>
+    <string name="password_mismatch">The passwords do not match.</string>
+
+    <string name="accessibility_label">Blocking service</string>
+    <string name="admin_label">Uninstall protection</string>
+    <string name="state_on">On</string>
+    <string name="state_off">Off</string>
+    <string name="open_accessibility">Enable in Accessibility</string>
+    <string name="activate_admin">Activate</string>
+
+    <string name="card_blocking">What to block</string>
+    <string name="password_hint">Changes take effect when you tap Apply. Turning something off or allowing more needs the password.</string>
+    <string name="toggle_reels">Instagram Reels</string>
+    <string name="toggle_shorts">YouTube Shorts</string>
+    <string name="toggle_tiktok">TikTok</string>
+    <string name="toggle_feed_limit">Instagram feed limit</string>
+    <string name="toggle_settings_lock">Lock Settings screens</string>
+    <string name="feed_limit_posts">Posts before back to top</string>
+
+    <string name="access_hint">To remove the app: switch Protection off and apply, then deactivate the device admin in Settings and uninstall.</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="master_title">Master password</string>
+    <string name="master_hint">Master password</string>
+    <string name="master_reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="master_wrong">Wrong master password.</string>
+    <string name="restricted_hint">Android 13+, sideloaded: open App info, tap the three dots, choose \"Allow restricted settings\", then enable the service.</string>
+    <string name="open_app_info">Open App info</string>
+
+    <string name="wrong_password">Wrong password.</string>
+    <string name="locked_out">Too many attempts. Try again in %d s.</string>
+
+    <string name="card_allowance">Daily allowance</string>
+    <string name="allowance_hint">Minutes a day that Reels, Shorts and TikTok stay open before they are closed. Only the switches that are on count. 0 closes them right away.</string>
+    <string name="allowance_minutes">Minutes a day</string>
+    <string name="allowance_left">%d min left today.</string>
+    <string name="allowance_no_notifications">Allow notifications to see the countdown.</string>
+    <string name="allow_notifications">Allow notifications</string>
+    <string name="allowance_channel">Daily allowance</string>
+    <string name="allowance_notification_title">Time left today</string>
+    <string name="allowance_notification_text">Reels, Shorts and TikTok</string>
+    <string name="allowance_time_up">Time is up for today</string>
+    <string name="not_applied">%s · not applied</string>
+    <string name="pending_title">Changes are not applied yet</string>
+    <string name="pending_password">Some of them loosen the protection, so they need the password.</string>
+    <string name="apply">Apply</string>
+    <string name="discard">Discard</string>
+    <string name="toggle_protection">Protection</string>
+    <string name="footer_version">Reels Guard %s · MIT License</string>
+    <string name="footer_source">Source code on GitHub</string>
+    <string name="setup_self_lock">Set up without password</string>
+    <string name="setup_self_lock_hint">Don\'t trust yourself? Then skip the password: nobody can turn anything off right away, it only takes effect the next day.</string>
+    <string name="password_hint_self_lock">Changes take effect when you tap Apply. Turning something off or allowing more waits until tomorrow.</string>
+    <string name="access_hint_self_lock">To remove the app: switch Protection off and apply. From tomorrow you can deactivate the device admin in Settings and uninstall.</string>
+    <string name="changes_tomorrow">%s · changes tomorrow</string>
+    <string name="cancel_tomorrow">Cancel tomorrow\'s changes</string>
+    <string name="pending_tomorrow">Turning something off or allowing more takes effect tomorrow.</string>
+    <string name="allowance_minutes_tomorrow">Minutes tomorrow</string>
+    <string name="allowance_today">Today: %1$d min, %2$d min left.</string>
+    <string name="allowance_tomorrow_hint">Today\'s minutes are fixed. If you don\'t choose tomorrow\'s, it gets %d.</string>
+</resources>

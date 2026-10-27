@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="service_description">Закриває Instagram Reels, YouTube Shorts та (за бажанням) TikTok, обмежує стрічку в Instagram і запитує пароль, перш ніж цей застосунок можна вимкнути чи видалити. Працює повністю офлайн.</string>
+    <string name="admin_explanation">Не дає видалити Reels Guard без пароля.</string>
+    <string name="admin_disable_warning">Щоб вимкнути Reels Guard, потрібен пароль.</string>
+
+    <string name="setup_title">Встановіть пароль</string>
+    <string name="setup_hint">Придумайте пароль і збережіть його: він потрібен, щоб вимкнути захист або видалити застосунок. Порада: нехай пароль придумає друг, щоб ви його не знали.</string>
+    <string name="password">Пароль</string>
+    <string name="password_repeat">Повторіть пароль</string>
+    <string name="save_password">Зберегти пароль</string>
+    <string name="password_too_short">Щонайменше %d символів.</string>
+    <string name="password_mismatch">Паролі не збігаються.</string>
+
+    <string name="accessibility_label">Служба блокування</string>
+    <string name="admin_label">Захист від видалення</string>
+    <string name="state_on">Увімк.</string>
+    <string name="state_off">Вимк.</string>
+    <string name="open_accessibility">Увімкнути у «Спеціальних можливостях»</string>
+    <string name="activate_admin">Активувати</string>
+
+    <string name="card_blocking">Що блокувати</string>
+    <string name="password_hint">Зміни діють після натискання «Застосувати». Вимкнення або дозвіл на більше потребує пароля.</string>
+    <string name="toggle_reels">Instagram Reels</string>
+    <string name="toggle_shorts">YouTube Shorts</string>
+    <string name="toggle_tiktok">TikTok</string>
+    <string name="toggle_feed_limit">Ліміт стрічки в Instagram</string>
+    <string name="toggle_settings_lock">Блокувати екрани налаштувань</string>
+    <string name="feed_limit_posts">Дописів до повернення нагору</string>
+
+    <string name="access_hint">Щоб видалити застосунок: вимкніть Захист і застосуйте, потім деактивуйте адміністратора пристрою в Налаштуваннях і видаліть.</string>
+    <string name="forgot_password">Забули пароль?</string>
+    <string name="master_title">Головний пароль</string>
+    <string name="master_hint">Головний пароль</string>
+    <string name="master_reset">Скинути</string>
+    <string name="cancel">Скасувати</string>
+    <string name="master_wrong">Неправильний головний пароль.</string>
+    <string name="restricted_hint">Android 13+, встановлено не з магазину: відкрийте «Інформація про застосунок», торкніться трьох крапок, виберіть «Дозволити обмежені налаштування», потім увімкніть службу.</string>
+    <string name="open_app_info">Відкрити інформацію про застосунок</string>
+
+    <string name="wrong_password">Неправильний пароль.</string>
+    <string name="locked_out">Забагато спроб. Спробуйте за %d с.</string>
+
+    <string name="card_allowance">Денний ліміт</string>
+    <string name="allowance_hint">Скільки хвилин на день Reels, Shorts і TikTok залишаються відкритими, перш ніж закриються. Рахується лише те, що увімкнено. 0 закриває їх одразу.</string>
+    <string name="allowance_minutes">Хвилин на день</string>
+    <string name="allowance_left">Сьогодні залишилось %d хв.</string>
+    <string name="allowance_no_notifications">Дозвольте сповіщення, щоб бачити зворотний відлік.</string>
+    <string name="allow_notifications">Дозволити сповіщення</string>
+    <string name="allowance_channel">Денний ліміт</string>
+    <string name="allowance_notification_title">Залишилось сьогодні</string>
+    <string name="allowance_notification_text">Reels, Shorts і TikTok</string>
+    <string name="allowance_time_up">Час на сьогодні вичерпано</string>
+    <string name="not_applied">%s · не застосовано</string>
+    <string name="pending_title">Зміни ще не застосовано</string>
+    <string name="pending_password">Деякі з них послаблюють захист, тому потрібен пароль.</string>
+    <string name="apply">Застосувати</string>
+    <string name="discard">Скасувати</string>
+    <string name="toggle_protection">Захист</string>
+    <string name="footer_version">Reels Guard %s · ліцензія MIT</string>
+    <string name="footer_source">Вихідний код на GitHub</string>
+    <string name="setup_self_lock">Налаштувати без пароля</string>
+    <string name="setup_self_lock_hint">Не довіряєте собі? Пропустіть пароль: нічого не можна вимкнути одразу, зміна діє лише наступного дня.</string>
+    <string name="password_hint_self_lock">Зміни діють після натискання «Застосувати». Вимкнення або дозвіл на більше чекає до завтра.</string>
+    <string name="access_hint_self_lock">Щоб видалити застосунок: вимкніть Захист і застосуйте. З завтрашнього дня можна деактивувати адміністратора пристрою в Налаштуваннях і видалити.</string>
+    <string name="changes_tomorrow">%s · зміна завтра</string>
+    <string name="cancel_tomorrow">Скасувати завтрашні зміни</string>
+    <string name="pending_tomorrow">Вимкнення або дозвіл на більше почне діяти завтра.</string>
+    <string name="allowance_minutes_tomorrow">Хвилин завтра</string>
+    <string name="allowance_today">Сьогодні: %1$d хв, залишилось %2$d хв.</string>
+    <string name="allowance_tomorrow_hint">Сьогоднішні хвилини фіксовані. Якщо не виберете завтрашні, буде %d.</string>
+</resources>

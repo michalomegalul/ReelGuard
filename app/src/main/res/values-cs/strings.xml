@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="service_description">Zavírá Instagram Reels, YouTube Shorts a (volitelně) TikTok, omezuje feed na Instagramu a před vypnutím nebo odinstalací aplikace vyžaduje heslo. Funguje zcela offline.</string>
+    <string name="admin_explanation">Zabrání odinstalaci Reels Guard bez hesla.</string>
+    <string name="admin_disable_warning">K vypnutí Reels Guard je potřeba heslo.</string>
+
+    <string name="setup_title">Nastavte heslo</string>
+    <string name="setup_hint">Zvolte si heslo a dobře si ho uschovejte: je potřeba k vypnutí ochrany nebo odebrání aplikace. Tip: nechte heslo zvolit kamaráda, ať ho neznáte.</string>
+    <string name="password">Heslo</string>
+    <string name="password_repeat">Heslo znovu</string>
+    <string name="save_password">Uložit heslo</string>
+    <string name="password_too_short">Alespoň %d znaků.</string>
+    <string name="password_mismatch">Hesla se neshodují.</string>
+
+    <string name="accessibility_label">Blokovací služba</string>
+    <string name="admin_label">Ochrana proti odinstalaci</string>
+    <string name="state_on">Zap</string>
+    <string name="state_off">Vyp</string>
+    <string name="open_accessibility">Zapnout v Usnadnění</string>
+    <string name="activate_admin">Aktivovat</string>
+
+    <string name="card_blocking">Co blokovat</string>
+    <string name="password_hint">Změny platí až po klepnutí na Použít. Vypnutí nebo povolení víc vyžaduje heslo.</string>
+    <string name="toggle_reels">Instagram Reels</string>
+    <string name="toggle_shorts">YouTube Shorts</string>
+    <string name="toggle_tiktok">TikTok</string>
+    <string name="toggle_feed_limit">Limit feedu na Instagramu</string>
+    <string name="toggle_settings_lock">Zamknout obrazovky Nastavení</string>
+    <string name="feed_limit_posts">Příspěvků do návratu nahoru</string>
+
+    <string name="access_hint">Odebrání aplikace: vypněte Ochranu a použijte, pak v Nastavení deaktivujte správce zařízení a odinstalujte.</string>
+    <string name="forgot_password">Zapomenuté heslo?</string>
+    <string name="master_title">Hlavní heslo</string>
+    <string name="master_hint">Hlavní heslo</string>
+    <string name="master_reset">Obnovit</string>
+    <string name="cancel">Zrušit</string>
+    <string name="master_wrong">Špatné hlavní heslo.</string>
+    <string name="restricted_hint">Android 13+, instalace mimo obchod: otevřete Informace o aplikaci, klepněte na tři tečky, zvolte „Povolit omezená nastavení“ a pak zapněte službu.</string>
+    <string name="open_app_info">Otevřít Informace o aplikaci</string>
+
+    <string name="wrong_password">Špatné heslo.</string>
+    <string name="locked_out">Příliš mnoho pokusů. Zkuste to za %d s.</string>
+
+    <string name="card_allowance">Denní limit</string>
+    <string name="allowance_hint">Kolik minut denně zůstanou Reels, Shorts a TikTok otevřené, než se zavřou. Počítá se jen to, co je zapnuté. 0 je zavře hned.</string>
+    <string name="allowance_minutes">Minut denně</string>
+    <string name="allowance_left">Dnes zbývá %d min.</string>
+    <string name="allowance_no_notifications">Povolte oznámení, ať vidíte odpočet.</string>
+    <string name="allow_notifications">Povolit oznámení</string>
+    <string name="allowance_channel">Denní limit</string>
+    <string name="allowance_notification_title">Dnes zbývá</string>
+    <string name="allowance_notification_text">Reels, Shorts a TikTok</string>
+    <string name="allowance_time_up">Na dnešek je čas vyčerpán</string>
+    <string name="not_applied">%s · nepoužito</string>
+    <string name="pending_title">Změny ještě nejsou použité</string>
+    <string name="pending_password">Některé ochranu uvolňují, proto je potřeba heslo.</string>
+    <string name="apply">Použít</string>
+    <string name="discard">Zahodit</string>
+    <string name="toggle_protection">Ochrana</string>
+    <string name="footer_version">Reels Guard %s · licence MIT</string>
+    <string name="footer_source">Zdrojový kód na GitHubu</string>
+    <string name="setup_self_lock">Nastavit bez hesla</string>
+    <string name="setup_self_lock_hint">Nevěříte si? Vynechte heslo: nic nejde vypnout hned, změna platí až další den.</string>
+    <string name="password_hint_self_lock">Změny platí až po klepnutí na Použít. Vypnutí nebo povolení víc počká do zítřka.</string>
+    <string name="access_hint_self_lock">Odebrání aplikace: vypněte Ochranu a použijte. Od zítřka můžete v Nastavení deaktivovat správce zařízení a odinstalovat.</string>
+    <string name="changes_tomorrow">%s · změna zítra</string>
+    <string name="cancel_tomorrow">Zrušit zítřejší změny</string>
+    <string name="pending_tomorrow">Vypnutí nebo povolení víc začne platit zítra.</string>
+    <string name="allowance_minutes_tomorrow">Minut zítra</string>
+    <string name="allowance_today">Dnes: %1$d min, zbývá %2$d min.</string>
+    <string name="allowance_tomorrow_hint">Dnešní minuty jsou pevné. Když zítřejší nezvolíte, bude jich %d.</string>
+</resources>
