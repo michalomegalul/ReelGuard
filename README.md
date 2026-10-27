@@ -9,20 +9,27 @@ Download it from [Releases](../../releases).
 
 ## How it works
 
-Someone you trust sets the password.
-Making things stricter is always free, loosening them needs the password.
-No one to hold the password? Set it up without one: then loosening only takes effect the next day.
+You choose what to block and how many minutes a day you get, up to 2 hours.
+Only time spent in Reels, Shorts or TikTok counts, and a notification shows how much is left.
+Making things stricter always works right away. Loosening them depends on the mode:
+
+- **With a password**: loosening anything needs the password.
+- **Without a password** (if you don't trust yourself): loosening only takes effect the next day.
+  You set tomorrow's minutes today; if you don't, you get 30.
 
 ## Setup
 
 1. Install the APK from [Releases](../../releases).
-2. Set the password, or let a friend set it.
+   Play Protect will probably block it, because the app uses Accessibility.
+   Pause Play Protect while installing, or install with `adb install`.
+2. Set a password (or let a friend set it), or set it up without one.
 3. Android 13+: App info -> three dots -> *Allow restricted settings*.
 4. Turn on Reels Guard under Accessibility.
 5. Turn on what you want blocked and set your daily minutes.
    *Lock Settings screens* stops the app from being switched off or uninstalled.
 
 To remove it, switch *Protection* off, apply, then uninstall.
+Without a password, the switch-off takes effect the next day.
 
 ## Limits
 
@@ -40,7 +47,6 @@ If that happens, dump the screen with `adb shell uiautomator dump` and update th
 
 Pushing a `v1.2.3` tag builds a signed APK and drafts a GitHub release.
 It needs the `RELEASE_KEYSTORE_BASE64`, `RELEASE_STORE_PASSWORD`, `RELEASE_KEY_ALIAS` and `RELEASE_KEY_PASSWORD` repository secrets.
-Don't lose the keystore, updates won't install without it.
 
 ## License
 
